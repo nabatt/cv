@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+h1 {
+  font-size: 3 rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5 rem;
+  color: #2c0d5d;
+}
+
+h3 {
+  color: #2c0d5d;
+}
+
+span {
+  text-decoration: underline;
+}
+
+
+hr {
+  border: dotted #ae7ef8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.top-container {
+  background-color: #9e36e1;
+  position: relative;
+  padding-top: 200px;
+  font-size: 20px;
+}
+
+.middle-container {
+  padding-bottom: 100px;
+
+}
+
+.bottom-container {
+  background-color: #9e36e1;
+  padding: 50px 0px 20px 0px;
+}
+
+.planet-1 {
+  position: absolute;
+  right: 250px;
+  top: 100px;
+}
+
+.planet-2 {
+  position: absolute;
+  bottom: 350px;
+  left: 110px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-1-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-3-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.profile-img {
+  margin-bottom: 50px;
+}
+
+
+.btn {
+  background: #1c0a38;
+  background-image: -webkit-linear-gradient(top, #1c0a38, #361371);
+  background-image: -moz-linear-gradient(top, #1c0a38, #361371);
+  background-image: -ms-linear-gradient(top, #1c0a38, #361371);
+  background-image: -o-linear-gradient(top, #1c0a38, #361371);
+  background-image: linear-gradient(to bottom, #1c0a38, #361371);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Courgette', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #4a28a3;
+  background-image: -webkit-linear-gradient(top, #4a28a3, #4a28a3);
+  background-image: -moz-linear-gradient(top, #4a28a3, #4a28a3);
+  background-image: -ms-linear-gradient(top, #4a28a3, #4a28a3);
+  background-image: -o-linear-gradient(top, #4a28a3, #4a28a3);
+  background-image: linear-gradient(to bottom, #4a28a3, #4a28a3);
+  text-decoration: none;
+}
+
+
+
+
+
+.footer-social-media-link {
+  padding: 15px 15px;
+  color: #2c0d5d;
+  text-decoration: none;
+}
+
+.footer-social-media-link:hover{
+  color: #15072c;
+  font-weight: bold;
+}
+
+.Copyright {
+  margin: 30px auto 0;
+  color: #15072c;
+  font-weight: bold;
+}

@@ -1,0 +1,42 @@
+***************************************display property***********************************
+    - inline: cannot change the width of the element but can sit by other elements side --> like span, anchor tag, img
+    - block: can change the element's width but cannot sit by other elements side --> like paragraph
+    - inline-block: can change the width of element and sit by other elements side
+    - None: it remove the element from the page totally as if it never existed(you can also change the visibility property to none,
+      to hide the element as well, the difference is that, setting visibility to none just hide the element but keep it's position, but setting
+      display to none remove the element from the page entirely )
+
+
+
+**************************************position property***********************************
+absolute: take out the element from the flow of the page, and remove it's gost
+relative: position elements relative to it's current position, and keep the gost of it's previous location
+static: keep the element in a fixed place
+
+
+
+**************************************align elements of the page centered***********************************
+method-1: this method works if all elements are either block or inline-block and none of them has a width set for it
+  in body property set text-align: center;
+
+method-2: if there is a width set for any element do this
+  use margin like so: margin: 0 auto 0 auto;
+
+
+  *********************************************sizing********************************************************
+  >>>> intermediate css / 013 css sizing
+px : is static sizing, if u set the size of, say, a paragraph to 20px, even if u change the font size of the page in your browser,
+     the size of your paragraph doesn't change(not good for visually impaired people who needs it)(does not inherit from it's parent)
+% : a percentage of the page(inherit from parent)
+em : equals 16 px(inherit from parent)
+rem(root em): it only inherit from the root , not even parent(you can sort of say it doesn't inherit from parents)***** best option to use******
+
+--- > 1em = 16px = 100%
+ some set the font size in px , that might not be good for visually impaired people, but those who use px over % or em say , visually impaired people
+ mostly tend to zoom in instead of changing the font size of web page
+
+
+
+******************************************float vs. clear*****************************************************
+with great power comes great responsibility, float is one of the properties that comes with a lot of corner cases, so only use it when it is really
+really necessary. and only use it for what it's meant for, which is wrapping a text around another element like an image. and don't use it for positioning
